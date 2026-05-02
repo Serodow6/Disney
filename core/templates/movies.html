@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="moviehtmlundernav1">
+    <h1>Explore our Movies</h1>
+</div>
+<div class="moviehtmludnernav11">
+   <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Featured</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Dinsey+ and Watch at Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">In Cinemas</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Coming Soon</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">More Movies</a>
+  </li>
+</ul>
+</div>
+<div class="moviehtmlmovies" style="display: flex;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="{% static 'images/Screenshot 2026-02-16 201831.png' %}" alt="">
+                <p>Avatar: Fire and Ash</p>
+            </div>
+            <div class="col-md-3">
+                <img src="{% static 'images/Screenshot 2026-03-09 220128.png' %}" alt="">
+                <p>Avengers: Doomsday</p>
+                
+            </div>
+            <div class="col-md-3">
+                <img src="{% static 'images/Screenshot 2026-02-16 201841.png' %}" alt="">
+                <p>Hoppers</p>
+                
+            </div>
+            <div class="col-md-3">
+                <img src="{% static 'images/Screenshot 2026-03-09 220113.png' %}" alt="">
+                <p>Moana</p>
+                
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-4">
+                <img src="{% static 'images/Screenshot 2026-03-09 220144.png' %}" alt="">
+                <p>Star Wars: The Mabdalorian and Grougu</p>
+
+            </div>
+            <div class="col-md-4">
+                <img src="{% static 'images/Screenshot 2026-03-09 220049.png' %}" alt="">
+                <p>The Devil Wears Prada 2</p>
+
+            </div>
+            <div class="col-md-4">
+                <img src="{% static 'images/Screenshot 2026-03-09 220158.png' %}" alt="">
+                <p>Toy Story 5</p>
+            </div>
+     
+        </div>
+    </div>
+    
+    
+</div>
+{% endblock %}

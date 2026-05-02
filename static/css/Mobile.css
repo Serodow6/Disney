@@ -1,0 +1,66 @@
+@media (min-width:360px) and (max-width:760px)
+{
+.nav-link{
+    display: flex
+}
+.imgindex1{
+    width: 300px;
+}
+.white{
+    margin-left: 0px;
+    padding-right: 44px;
+}
+.shopimage{
+    width: 300px;
+}
+.undernews{
+    margin-left: 0px;
+}
+.adds{
+    text-align: center; 
+   padding-right: 45px;
+}
+.card-body{
+    text-align: center;
+}
+.row{
+    margin-right: 20px
+}
+.news{
+    padding-left: 44px;
+}
+.signup2{
+    margin-left: 50px;
+}
+.undersignup{
+    margin-left: 50px;
+}
+.shows{
+    padding-left: 44px;
+}
+.movies{
+    padding-left: 44px;
+}
+.showsh1{
+    padding-right: 44px;
+}
+.moviesh1{
+    padding-right: 44px;
+}
+.newsh1{
+    padding-right: 44px;
+}
+.parks{
+    padding-left: 44px;
+}
+.parksh1{
+    padding-right: 44px;
+}
+.underNavbar{
+    padding-left: 44px;
+}
+
+
+}
+
+

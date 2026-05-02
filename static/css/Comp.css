@@ -1,0 +1,412 @@
+.nav-link{
+    color: black;
+    font-size: medium;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+.underNavbar{
+    background: linear-gradient(#001F33,#033f54);
+    text-align: center;
+    color: white;
+    padding-bottom: 30px ;
+}
+.buttonSignup{
+    background-color: aqua;
+    border-radius: 20px;
+    border: none;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.col-6{
+    margin-top: 150px;
+    padding-bottom: 80px;
+}
+.btn-primary{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+.adds{
+
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.white{
+    color: white;
+    margin-left: 1200px;
+    font-size: x-small;
+}
+.news{
+    color: white;
+    background:linear-gradient(#001F33,#033f54);
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.card{
+    margin-top: 80px;
+    background:none;
+    border: none;
+    color: gray;
+    margin-left: 15px;
+}
+.card-title2{
+    color: white;
+}
+.card-body{
+    text-align: left;
+}
+.signup2{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.undersignup{
+    font-size: x-small;
+    margin-top:20px;
+}
+.undernews{
+    margin-left: 430px;
+}
+.shop{
+    text-align: center;
+    margin-top: 50px;
+}
+.shopimage{
+    width: 1400px;
+    margin-top: 50px;
+}
+.parks{
+    text-align: center;
+    margin-top: 50px;
+}
+.shows{
+    margin-top: 50px;
+    text-align: center;
+}
+.movies{
+    text-align: center;
+}
+.signup3{
+    background-image: url('./images/Screenshot 2026-02-16 201753.png');
+    text-align: center;
+    height: 500px;
+    color: white;
+    padding-top: 50px;
+  
+}
+.signupbtn3{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.movedisney{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.disneyabout{
+    margin-top: 80px   ;
+}
+
+.name{
+    margin-left: 650px;
+    margin-top: 30px;
+}
+.input1{
+    background-color: rgb(210, 226, 255);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-left: 50px;
+    /* add some left padding so placeholder text isn’t flush with the edge */
+    padding-left: 10px;
+    /* optional: adjust vertical padding for better height */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.shopnow1{
+    /* path corrected to match actual file name in images folder */
+    background-image: url('./images/Screenshot 2026-02-28 234448.png');
+    background-size: cover;          /* make it fill the div */
+    background-position: center;     /* center the image */
+    /* ensure the div has some height so the background is visible */
+    min-height: 300px;    
+               
+}
+.shopnow1but{
+    background-color:white ;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 250px;
+}
+.undershopnow1{
+    text-align: center;
+    background-color: #FFD600;
+    }
+.undershopnow2{
+    background-image: url('./images/Screenshot 2026-03-01 093142.png');
+    padding-bottom: 120px;
+}
+.undershopnowbut2{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 490px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.undershopnow3{
+    background-image: url('./images/Screenshot 2026-03-01 094729.png');
+    padding-bottom: 250px;
+}
+.undershopnowbut3{
+    background-color :black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 130px;
+    margin-top: 400px;
+}
+.undershopnow4{
+    background-image: url('./images/Screenshot 2026-03-01 095431.png');
+    padding-bottom: 250px;
+}
+.undershopnowbut4{
+    background-color :black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 130px;
+    margin-top: 400px;
+}
+.undershopnow5{
+    background-image: url('./images/Screenshot 2026-03-01 100245.png');
+    padding-bottom: 180px;
+}
+.undershopnowbut5{
+    background-color :black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 480px;
+}
+
+.undershopnow6{
+    background-image: url('./images/Screenshot 2026-03-01 100627.png');
+    padding-bottom: 180px;
+}
+.undershopnowbut6{
+    background-color :black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 480px;
+}
+.undershopnow7{
+    background-image: url('./images/Screenshot 2026-03-01 100646.png');
+    padding-bottom: 180px;
+}
+.undershopnowbut7{
+    background-color :black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 480px;
+}
+.undershopnow8{
+    background-image: url('./images/Screenshot 2026-03-01 100700.png');
+    padding-bottom: 180px;
+}
+.undershopnowbut8{
+    background-color :black;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 480px;
+}
+.undershopnow9{
+    background-image: url('./images/Screenshot 2026-03-01 100719.png');
+    padding-bottom: 150px;
+}
+.undershopnowbut9{
+    background-color :white;
+    color: black;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 300px;
+}
+.moviehtmlundernav1{
+    margin-top: 50px;
+    text-align: center;
+}
+.moviehtmludnernav11{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.moviehtmlmovies{
+    margin-top: 50px;
+}
+.login{
+    color: black;
+    margin-left: 150px;   
+}
+.boxoffice{
+    background: linear-gradient(#2a2553,#033f54);
+    text-align: center;
+    color: white;
+    padding-bottom: 20px ;
+    padding-top: 20px;
+}
+.boxoffice11{
+    background: url('./images/Screenshot\ 2026-03-19\ 121757.png');
+    padding-bottom:50px;
+}
+.boxoffice1btn{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    margin-top: 450px;
+}
+.boxoffice22{
+    display: flex;
+    margin-left: 100px;
+}
+.boxoffice21{
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 115px;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color: white;
+}
+.disneytickets{
+    text-align: center;
+    background-color: rgb(3, 18, 97);
+    color: white;
+    padding-top: 30px;
+}
+.card-body2{
+    color: black;
+    text-align: center;
+    background-color: white;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.imglightdisney{
+    width: 1500px;
+    margin-top: 30px;
+}
+.card-body3{
+    color: white;
+    text-align: center;
+}
+.faqh1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.movefromdisney{
+   background-color: rgb(3,4,38);
+    text-align: center;
+    padding-top: 10px;
+}
+.movefromdisneyimg1{
+   background: url('./images/Screenshot\ 2026-04-04\ 160721.png');
+   height: 600px;
+   background-size: contain;
+   text-align: right;
+   align-items: center;
+   padding-top: 309px;
+   
+
+}
+.movefromdisneyatag1{
+    background-color: none;
+    color: white;
+   margin-right: 50px;
+}
+.movefromdisneyimg2{
+    width: 727px;
+}
+.card-body3{
+   background-color: white;
+   color: black;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+.card-title3{
+    color: black;
+}
+.card-text3{
+    color: black;
+}
