@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<div style="display: flex;margin-left: 50px;">
+        <h1>Shopping : </h1>
+        <input s type="search" placeholder="Search..." style="border-radius: 10px;margin-left: 10px;">
+    </div>
+
+    <div style="display: flex;">
+
+        {% for product in products %}
+        <div style="margin-left: 50px;margin-top: 50px;">
+        
+                <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="{{product.image.url}}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black;">{{product.title}}</h5>
+                <p class="card-text" style="color: black;">. . .</p>
+                <a href="{% url 'core:readmore' product.id %}" class="btn btn-primary" style="color: black;">More Info</a>
+              </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+
+
+{%endblock%}

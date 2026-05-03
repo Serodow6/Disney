@@ -15,27 +15,15 @@
       <h1>Musicals</h1>
     </div>
     <div class="boxoffice22">
+      {% for item in shows %}
       <div class="card" style="width: 18rem;">
-    <img src="{% static 'images/Screenshot 2026-02-16 201308.png' %}" class="card-img-top" alt="...">
+    <img src="{{ item.image.url }}" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">The Lion King London</h5>
-      <p class="card-text">Lyceum Theatre, London</p>
+      <h5 class="card-title">{{ item.title }}</h5>
+      <p class="card-text">{{ item.description }}</p>
     </div>
   </div>
-  <div class="card" style="width: 18rem;">
-    <img src="{% static 'images/Screenshot 2026-02-16 201318.png' %}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Hercules The Musical</h5>
-      <p class="card-text">Theatre Royal Drury Lane, London</p>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="{% static 'images/Screenshot 2026-02-16 201328.png' %}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">The Greatest Showman</h5>
-      <p class="card-text">Bristol Hippodrome</p>
-    </div>
-  </div>
+  {%endfor%}
     </div>
   </div>
   <div class="boxoffice2">
@@ -43,20 +31,15 @@
       <h1>Family Shows</h1>
     </div>
     <div class="boxoffice22">
+      {% for item in familyshows %}
       <div class="card" style="width: 18rem;">
-      <img src="{% static 'images/Screenshot 2026-03-19 121815.png' %}" class="card-img-top" alt="...">
+      <img src="{{ item.image.url }}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Disney On Ice - Into the Magic</h5>
-        <p class="card-text">OVO Arena Wembley, London</p>
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">{{ item.description }}</p>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="{% static 'images/Screenshot 2026-02-16 201351.png' %}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Bluey's Big Play</h5>
-        <p class="card-text">UK & Ireland Tour</p>
-      </div>
-    </div>
+     {%endfor%}
     </div>
   </div>
   <div class="boxoffice2">
@@ -64,27 +47,15 @@
       <h1>Concerts & Events</h1>
     </div>
     <div class="boxoffice22">
+      {% for item in concertandevents %}
       <div class="card" style="width: 18rem;">
-      <img src="{% static 'images/Screenshot 2026-03-19 121815.png' %}" class="card-img-top" alt="...">
+      <img src="{{ item.image.url }}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Mundo Pixar Experience</h5>
-        <p class="card-text">London</p>
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">{{ item.description }}</p>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="{% static 'images/Screenshot 2026-03-19 121835.png' %}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Disney in Concert: The Sound of Magic</h5>
-        <p class="card-text">UK Tour</p>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="{% static 'images/Screenshot 2026-03-19 121848.png' %}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Indiana Jones and the Raiders of the Lost Ark - Live in Concert</h5>
-        <p class="card-text">UK Tour</p>
-      </div>
-    </div>
+    {%endfor%}
     </div>
   </div>
 </div>
@@ -249,7 +220,7 @@
 
 <div class="movefromdisney"> 
   <h1 style="color: white;">Move from Disney</h1>
-  <div class="movefromdisneyimg1" style="background: url('/static/images/Screenshot\ 2026-04-04\ 160721.png ');">
+  <div class="movefromdisneyimg1" style="background: url('/static/images/Screenshot\ 2026-04-04\ 160721.png ') ;">
     <a class="movefromdisneyatag1" href="">SIGN UP NOW*</a>
   </div>
   <div class="continer">

@@ -10,6 +10,7 @@
     text-align: center;
     color: white;
     padding-bottom: 30px ;
+    
 }
 .buttonSignup{
     background-color: aqua;
@@ -167,9 +168,10 @@
     background-color: #FFD600;
     }
 .undershopnow2{
-    background-image: url('./images/Screenshot 2026-03-01 093142.png');
-    padding-bottom: 120px;
+    background-image: url('../images/Screenshot 2026-03-01 093142.png');
+    padding-bottom: 250px;
 }
+
 .undershopnowbut2{
     background-color: white;
     color: black;
@@ -304,9 +306,11 @@
     display: flex;
     margin-top: 30px;
     justify-content: space-around;
+    
 }
 .moviehtmlmovies{
     margin-top: 50px;
+    text-align: center;
 }
 .login{
     color: black;

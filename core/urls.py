@@ -7,4 +7,6 @@ urlpatterns = [
     path('movies/', movies, name='movies'),
     path('shop/', shop, name='shop'),
     path('shows/', shows, name='shows'),
+    path('shopping/', shopping, name='shopping'),
+    path('readmore/<int:product_id>/', readmore, name='readmore'),
 ]

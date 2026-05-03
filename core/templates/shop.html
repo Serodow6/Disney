@@ -2,8 +2,10 @@
 {% load static %}
 {% block content %}
 
-<div class="shopnow1" style="background:url('/static/images/Screenshot\ 2026-02-28\ 234448.png')">
-  <button class="shopnow1but">Shop Pixar</button>
+<div class="shopnow1" style="background:url('/static/images/Screenshot\ 2026-02-28\ 234448.png');padding-top: 250px;">
+  <a href="{% url 'core:shopping' %}?category=Pixar">
+    <button class="shopnow1but" style="margin-bottom: 40px;">Shop Pixar</button>
+  </a>
 </div>
 
 
@@ -14,62 +16,61 @@
           <img class="undershopnow1img1" src="{% static 'images/Screenshot 2026-02-28 234533.png' %}" alt="">
         <p>Adventure Is Out There!</p>
         <p>Re-discover Pixar's most uplifting journey.</p>
-        <a href="">Shop Up</a>
+        <a href="{% url 'core:shopping' %}">Shop Up</a>
       </div>
       <div class="col-md-6"> 
-          <img class="undershopnow1img2" src="{% static 'images/Screenshot 2026-02-28 234550.png' %}" alt="">
+          <img class="undershopnow1img2" src="{% static 'images/Screenshot 2026-02-28 234550.png' %}" style="margin-top: 3px;" alt="">
         <p>A Pixar Favourite: Toy Story Legends.</p>
         <p>Shop the action figures fans love most.</p>
-        <a href="">Shop Toy Story</a>
+        <a href="{% url 'core:shopping' %}">Shop Toy Story</a>
       </div>
     </div>
   </div>
 </div>
 
 
-<a href="">
-  <div class="undershopnow2" style="background: url('/static/images/Screenshot\ 2026-03-01\ 093142.png');">
-      <button class="undershopnowbut2" >Shop Now</button>
+<div class="undershopnow2" style="background: url('/static/images/Screenshot\ 2026-03-01\ 093142.png');">
+      <a href="{% url 'core:shopping' %}?category=Bloom">
+        <button class="undershopnowbut2">Shop Now</button>
+      </a>
   </div>
-</a>
 
-<a href="">
   <div class="undershopnow3" style="background: url('/static/images/Screenshot\ 2026-03-01\ 094729.png');"> 
-    <button class="undershopnowbut3" >Shop Easter</button>
+    <a href="{% url 'core:shopping' %}?category=Easter">
+      <button class="undershopnowbut3">Shop Easter</button>
+    </a>
   </div>
-</a>
 
-<a href="">
   <div class="undershopnow4" style="background: url('/static/images/Screenshot\ 2026-03-01\ 095431.png');"> 
-    <button class="undershopnowbut4" >Shop Adult Clothing</button>
+    <a href="{% url 'core:shopping' %}?category=Adult">
+      <button class="undershopnowbut4">Shop Adult Clothing</button>
+    </a>  
   </div>
-</a>
-
-<a href="">
   <div class="undershopnow5" style="background: url('/static/images/Screenshot\ 2026-03-01\ 100245.png');"> 
-    <button class="undershopnowbut5">Shop Zootropolis</button>
+    <a href="{% url 'core:shopping' %}?category=Zootropolis">
+      <button class="undershopnowbut5">Shop Zootropolis</button>
+    </a>
   </div>
-</a>
-<a href="">
   <div class="undershopnow6" style="background: url('/static/images/Screenshot\ 2026-03-01\ 100627.png')"> 
-    <button class="undershopnowbut6" >Shop Skinnydip</button>
+    <a href="{% url 'core:shopping' %}?category=Skinnydip">
+      <button class="undershopnowbut6">Shop Skinnydip</button>
+    </a>
   </div>
-</a>
-<a href="">
   <div class="undershopnow7" style="background: url('/static/images/Screenshot\ 2026-03-01\ 100646.png');"> 
-    <button class="undershopnowbut7" >Shop Now</button>
+    <a href="{% url 'core:shopping' %}">
+      <button class="undershopnowbut7">Shop Now</button>
+    </a>
   </div>
-</a>
-<a href="">
   <div class="undershopnow8" style="background: url('/static/images/Screenshot\ 2026-03-01\ 100700.png');"> 
-    <button class="undershopnowbut8" >Shop Fancy Dress</button>
+    <a href="{% url 'core:shopping' %}">
+      <button class="undershopnowbut8">Shop Fancy Dress</button>
+    </a>
   </div>
-</a>
-<a href="">
   <div class="undershopnow9" style="background: url('/static/images/Screenshot\ 2026-03-01\ 100719.png');" > 
-    <button class="undershopnowbut9" >Shop Now</button>
+    <a href="{% url 'core:shopping' %}">
+      <button class="undershopnowbut9">Shop Now</button>
+    </a>
   </div>
-</a>
 
 
 <!-- Footer -->

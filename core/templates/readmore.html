@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <img src="{{ product.image.url }}" alt="{{ product.title }}">
+            <p>{{ product.description }}</p>
+        </div>
+        <div class="col-4">
+            <h1>Name: {{ product.title }}</h1>
+            <p>Gender: {{ product.gender }}</p>
+            <p>Size: {{ product.size }}</p>
+            <p>Price: ${{ product.price }}</p>
+            <p>Rarity: {{ product.rarity }}</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+{% endblock %}
